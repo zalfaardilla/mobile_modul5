@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Pilihan_Tempat"
+        android:title="Pilihan Tempat"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/spbu"
+                android:title="SPBU"
+                app:showAsAction="never"/>
+            <item android:id="@+id/restoran"
+                android:title="Restoran"
+                app:showAsAction="never"/>
+            <item android:id="@+id/kantor_polisi"
+                android:title="Kantor Polisi"
+                app:showAsAction="never"/>
+            <item android:id="@+id/tempat_wisata"
+                android:title="Tempat Wisata"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
